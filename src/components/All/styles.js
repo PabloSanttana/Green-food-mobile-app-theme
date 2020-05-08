@@ -1,0 +1,75 @@
+import {StyleSheet} from 'react-native'
+
+export default StyleSheet.create({
+    container: {
+        flex:1,
+       marginHorizontal:5,
+       paddingTop:10,
+       paddingBottom:5
+    },
+    section:{
+        flexDirection:'row',
+        alignItems:'center',
+        paddingVertical:2,
+        paddingHorizontal:10,
+        backgroundColor:'#f2f2f2',
+        marginBottom:10,
+        borderRadius:100
+    },
+    item:{
+       flex:1,
+        padding:10,
+        flexDirection:'row',
+        borderRadius:10,
+        marginBottom:10
+    },
+    imageContainer:{
+        width:90,
+        height:90
+    },
+    image:{
+        width:'100%',
+        height:'100%',
+        borderWidth:5,
+        borderRadius:10,
+        borderColor:'#ffff'
+    },
+    content:{
+        flex:1,
+        justifyContent:'center',
+        paddingHorizontal:10
+    },
+    name:{
+        color:'#fff',
+        fontSize:18,
+        fontWeight:'bold'
+    },
+    rating:{
+        marginTop:5,
+        flexDirection:'row'
+    },
+    button:{
+        width:30,
+        height:30,
+        backgroundColor:'#fff',
+        borderRadius:15,
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    priceContainer:{
+        flexDirection:'row',
+        marginTop:10
+    },
+    price:{
+        backgroundColor:'#fff',
+        paddingVertical:5,
+        paddingHorizontal:15,
+        borderRadius:50
+    },
+    priceText:{
+        color:'green',
+        fontWeight:'bold'
+    }
+   
+   
+})
